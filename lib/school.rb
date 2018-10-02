@@ -46,7 +46,7 @@ class School
       binding.pry
       @roster[grade] ||= []
       @roster[grade].push(name)
-      
+
     end
 
 end

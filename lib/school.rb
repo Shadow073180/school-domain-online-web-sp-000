@@ -54,7 +54,7 @@ class School
        @roster.sort
     end
 
-    def
+
 
 end
 school = School.new("WA")

@@ -26,6 +26,7 @@ class School
      @name
     end
 
+    # create school.roster getter
     def roster
       @roster
     end

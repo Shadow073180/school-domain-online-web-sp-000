@@ -17,11 +17,11 @@ class School
       @roster = {}
 
     end
-    # create school.name reader
+    # create school.name setter
     def name=(school_name)
       @name = school_name
     end
-    # create school.name writer
+    # create school.name getter
     def name
      @name
     end

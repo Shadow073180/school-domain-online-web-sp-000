@@ -1,4 +1,4 @@
-require 'pry'
+
 #create domain model School class
 class School
 
@@ -15,7 +15,7 @@ class School
 
       @name = name
       @roster = {}
-    
+
     end
     # create school.name reader
     def name=(school_name)

@@ -6,7 +6,7 @@ class School
      # intialized with empty has roster but will
      # have keys of grade levels, and values of arrays
      # of student names
-     
+
 
     # allows name to be auto initialized when creating new
     # instance of school class
@@ -44,7 +44,7 @@ class School
 
 end
 
-School.add_student("AC Slater", 9)
-School.add_student("Kelly Kapowski", 10)
-School.add_student("Schreech, 11")
-School.roster
+school.add_student("AC Slater", 9)
+school.add_student("Kelly Kapowski", 10)
+school.add_student("Schreech, 11")
+school.roster

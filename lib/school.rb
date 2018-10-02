@@ -55,6 +55,7 @@ class School
       @roster.each do |x, y|
         y.sort
     end
+  end
 
 
 

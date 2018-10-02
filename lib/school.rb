@@ -14,7 +14,7 @@ class School
     def initialize(name)
 
       @name = name
-      @roster = {}
+      @roster = {}.sort
 
     end
     # create school.name setter

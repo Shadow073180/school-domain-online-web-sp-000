@@ -52,9 +52,9 @@ class School
 
     def sort
       binding.pry
-    sorted = [] 
+    sorted = []
     @roster.each do |x, y|
-        y.sort
+      sorted =  y.sort
      return sorted
     end
   end

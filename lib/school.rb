@@ -1,3 +1,4 @@
+require 'pry'
 #create domain model School class
 class School
 
@@ -21,6 +22,10 @@ class School
     # create school.name writer
     def name
      @name
+    end
+
+    def roster
+      @roster
     end
 
     # grade method that takes in grade as argument and then

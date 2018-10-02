@@ -47,7 +47,7 @@ class School
     # then pushes the student name to that array.
     def add_student(name, grade)
       @roster[grade] ||= []
-      @roster[grade].push(name)
+      @roster[grade] << name
     end
 
 end

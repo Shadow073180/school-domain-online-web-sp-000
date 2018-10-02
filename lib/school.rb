@@ -12,9 +12,10 @@ class School
     # allows name to be auto initialized when creating new
     # instance of school class
     def initialize(name)
-      binding.pry
+
       @name = name
       @roster = {}
+      binding.pry
     end
     # create school.name reader
     def name=(school_name)

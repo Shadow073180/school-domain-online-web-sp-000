@@ -6,14 +6,13 @@ class School
      # intialized with empty has roster but will
      # have keys of grade levels, and values of arrays
      # of student names
-     @roster = {
-       #{}"grade" => name
-     }
+     
 
     # allows name to be auto initialized when creating new
     # instance of school class
     def initialize(name)
       @name = name
+      @roster = {}
     end
     # create school.name reader
     def name=(school_name)

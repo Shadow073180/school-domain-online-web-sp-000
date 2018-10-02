@@ -1,4 +1,4 @@
-
+require 'pry'
 #create domain model School class
 class School
 

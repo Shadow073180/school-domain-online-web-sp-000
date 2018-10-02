@@ -55,7 +55,7 @@ class School
     sorted = []
     @roster.each do |x, y|
       binding.pry
-      sorted =  y.sort
+      x =  y.sort
      return sorted
     end
   end

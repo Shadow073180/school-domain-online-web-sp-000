@@ -50,11 +50,11 @@ class School
       @roster[grade] << name
     end
 
-    def sort=(@roster)
+    def sort(@roster)
        @roster.sort
     end
 
-    def 
+    def
 
 end
 school = School.new("WA")

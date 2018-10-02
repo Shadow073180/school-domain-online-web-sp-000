@@ -15,7 +15,7 @@ class School
 
       @name = name
       @roster = {}
-      binding.pry
+    
     end
     # create school.name reader
     def name=(school_name)

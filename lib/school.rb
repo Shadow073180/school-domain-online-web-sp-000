@@ -50,11 +50,11 @@ class School
       @roster[grade] << name
     end
 
-  def sort
-    @roster.each do |x, y|
-      @roster[x] =  y.sort
+    def sort
+      @roster.each do |x, y|
+        @roster[x] =  y.sort
+      end
     end
-  end
 
 
 

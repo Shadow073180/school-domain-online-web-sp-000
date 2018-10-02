@@ -50,13 +50,9 @@ class School
       @roster[grade] << name
     end
 
-    def sort
-
-    
+  def sort
     @roster.each do |x, y|
-      binding.pry
       @roster[x] =  y.sort
-    
     end
   end
 
